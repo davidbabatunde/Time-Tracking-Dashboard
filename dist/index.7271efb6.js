@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"1xC6H":[function(require,module,exports) {
+})({"ledPo":[function(require,module,exports) {
 var Refresh = require("react-refresh/runtime");
 var ErrorOverlay = require("react-error-overlay");
 Refresh.injectIntoGlobalHook(window);
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"react-refresh/runtime":"786KC","react-error-overlay":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"react-refresh/runtime":"1eTJj","react-error-overlay":"50kcm"}],"1eTJj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-refresh-runtime.development.js");
 
-},{"./cjs/react-refresh-runtime.development.js":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"./cjs/react-refresh-runtime.development.js":"bkp9Y"}],"bkp9Y":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -627,7 +627,7 @@ module.exports = require("./cjs/react-refresh-runtime.development.js");
     exports.setSignature = setSignature;
 })();
 
-},{}],"1dldy":[function(require,module,exports) {
+},{}],"50kcm":[function(require,module,exports) {
 var process = require("process");
 !function(e, t) {
     module.exports = t();
@@ -2358,7 +2358,7 @@ var process = require("process");
     ]);
 });
 
-},{"process":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"process":"8yy9L"}],"8yy9L":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2503,7 +2503,7 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"7Zeie":[function(require,module,exports) {
+},{}],"gTGC9":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
@@ -3119,11 +3119,11 @@ $RefreshReg$(_c, "Nawa");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Header":"lhQzv","react":"21dqq","./CardW":"1VHnH","./CardM":"6ZaRE","./CardD":"b1GXv","./data.json":"aLYkf"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"3yWqD","react-dom":"hBLVX","react":"ewHTr","./CardW":"1VHnH","./CardM":"6ZaRE","./CardD":"b1GXv","./data.json":"aLYkf","./Header":"lhQzv","@parcel/transformer-js/src/esmodule-helpers.js":"hf8dk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9S5MG"}],"3yWqD":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
-},{"./cjs/react-jsx-dev-runtime.development.js":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"./cjs/react-jsx-dev-runtime.development.js":"a6t2t"}],"a6t2t":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -3952,11 +3952,11 @@ module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"react":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"react":"ewHTr"}],"ewHTr":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react.development.js");
 
-},{"./cjs/react.development.js":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"./cjs/react.development.js":"9v8uD"}],"9v8uD":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5820,7 +5820,7 @@ module.exports = require("./cjs/react.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"j6uA9":[function(require,module,exports) {
+},{}],"hBLVX":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5836,7 +5836,7 @@ function checkDCE() {
 }
 module.exports = require("./cjs/react-dom.development.js");
 
-},{"./cjs/react-dom.development.js":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"cWYLQ"}],"cWYLQ":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -26793,11 +26793,11 @@ module.exports = require("./cjs/react-dom.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"react":"21dqq","scheduler":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"react":"ewHTr","scheduler":"fvcEv"}],"fvcEv":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/scheduler.development.js");
 
-},{"./cjs/scheduler.development.js":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"./cjs/scheduler.development.js":"f041w"}],"f041w":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27251,7 +27251,143 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"km3Ru":[function(require,module,exports) {
+},{}],"1VHnH":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c30f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c30f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const CardW = (props)=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "w-[320px] h-[180px] block",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-full h-[30%] rounded-t-2xl bg-work max-w-sm"
+            }, void 0, false, {
+                fileName: "src/CardW.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative bottom-4 flex flex-col justify-around gap-1 w-full rounded-2xl p-6 bg-mine",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex flex-row justify-between items-center",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                className: "font-bold text-white",
+                                children: props.bleh.title
+                            }, void 0, false, {
+                                fileName: "src/CardW.js",
+                                lineNumber: 12,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-gray-400 ",
+                                children: "icon later"
+                            }, void 0, false, {
+                                fileName: "src/CardW.js",
+                                lineNumber: 13,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/CardW.js",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex flex-row justify-between items-center",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                className: "text-3xl text-gray-100",
+                                children: [
+                                    props.bleh.timeframes.weekly.current,
+                                    "hrs"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/CardW.js",
+                                lineNumber: 16,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-gray-400 text-right",
+                                children: [
+                                    "Last Week - ",
+                                    props.bleh.timeframes.weekly.previous,
+                                    "hrs"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/CardW.js",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/CardW.js",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/CardW.js",
+                lineNumber: 7,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/CardW.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = CardW;
+exports.default = CardW;
+var _c;
+$RefreshReg$(_c, "CardW");
+
+  $parcel$ReactRefreshHelpers$c30f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"3yWqD","react":"ewHTr","@parcel/transformer-js/src/esmodule-helpers.js":"hf8dk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9S5MG"}],"hf8dk":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"9S5MG":[function(require,module,exports) {
 "use strict";
 var Refresh = require("react-refresh/runtime");
 function debounce(func, delay) {
@@ -27371,306 +27507,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"lhQzv":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9196 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9196.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Header = (props)=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "relative block w-[80%] max-w-[320px] max-h-[200px] mb-4 sm:h-full sm:w-[250px] sm:align-end",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "relative top-3 flex flex-row items-center w-full h-full rounded-2xl p-6 bg-indigo-600 sm:flex sm:flex-col sm:items-start sm:h-full sm:m-0 sm:pb-9",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: require("./image-jeremy.png"),
-                            className: "w-14 h-14 rounded-[50%] m-0 border-4 border-gray-300s"
-                        }, void 0, false, {
-                            fileName: "src/Header.js",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex flex-col items-start w-full px-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                    className: "text-gray-300",
-                                    children: "Report for"
-                                }, void 0, false, {
-                                    fileName: "src/Header.js",
-                                    lineNumber: 19,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    className: "text-2xl text-gray-200 sm:flex flex-col",
-                                    children: [
-                                        "Jeremy ",
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            children: "Robson"
-                                        }, void 0, false, {
-                                            fileName: "src/Header.js",
-                                            lineNumber: 21,
-                                            columnNumber: 22
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Header.js",
-                                    lineNumber: 20,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Header.js",
-                            lineNumber: 18,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Header.js",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: " flex flex-row items-center w-full rounded-b-2xl p-6 pt-8 bg-mine text-paleblue justify-between sm:flex sm:flex-col sm:justify-around sm:gap-2 sm:items-start",
-                    children: [
-                        " ",
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            id: "buttonD",
-                            onClick: ()=>props.setTimeFrame("daily"),
-                            className: props.timeFrame === "daily" ? "text-white " : "hover:text-white",
-                            children: "Daily"
-                        }, void 0, false, {
-                            fileName: "src/Header.js",
-                            lineNumber: 31,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            id: "buttonW",
-                            onClick: ()=>props.setTimeFrame("weekly"),
-                            className: props.timeFrame === "weekly" ? "text-white " : "hover:text-white",
-                            children: "Weekly"
-                        }, void 0, false, {
-                            fileName: "src/Header.js",
-                            lineNumber: 40,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            id: "buttonM",
-                            onClick: ()=>props.setTimeFrame("monthly"),
-                            className: props.timeFrame === "monthly" ? "text-white " : "hover:text-white",
-                            children: "Monthly"
-                        }, void 0, false, {
-                            fileName: "src/Header.js",
-                            lineNumber: 49,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Header.js",
-                    lineNumber: 25,
-                    columnNumber: 9
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Header.js",
-            lineNumber: 6,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false);
-};
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$9196.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./image-jeremy.png":"4ZDI2"}],"4ZDI2":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("aXMci") + "image-jeremy.7a82211b.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"1VHnH":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c30f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c30f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const CardW = (props)=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "w-[320px] h-[180px] block",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "w-full h-[30%] rounded-t-2xl bg-work max-w-sm"
-            }, void 0, false, {
-                fileName: "src/CardW.js",
-                lineNumber: 6,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "relative bottom-4 flex flex-col justify-around gap-1 w-full rounded-2xl p-6 bg-mine",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "flex flex-row justify-between items-center",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                className: "font-bold text-white",
-                                children: props.bleh.title
-                            }, void 0, false, {
-                                fileName: "src/CardW.js",
-                                lineNumber: 12,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "text-gray-400 ",
-                                children: "icon later"
-                            }, void 0, false, {
-                                fileName: "src/CardW.js",
-                                lineNumber: 13,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/CardW.js",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "flex flex-row justify-between items-center",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                className: "text-3xl text-gray-100",
-                                children: [
-                                    props.bleh.timeframes.weekly.current,
-                                    "hrs"
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/CardW.js",
-                                lineNumber: 16,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "text-gray-400 text-right",
-                                children: [
-                                    "Last Week - ",
-                                    props.bleh.timeframes.weekly.previous,
-                                    "hrs"
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/CardW.js",
-                                lineNumber: 19,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/CardW.js",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/CardW.js",
-                lineNumber: 7,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/CardW.js",
-        lineNumber: 5,
-        columnNumber: 5
-    }, undefined);
-};
-_c = CardW;
-exports.default = CardW;
-var _c;
-$RefreshReg$(_c, "CardW");
-
-  $parcel$ReactRefreshHelpers$c30f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6ZaRE":[function(require,module,exports) {
+},{"react-refresh/runtime":"1eTJj"}],"6ZaRE":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$054a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27776,7 +27613,7 @@ $RefreshReg$(_c, "CardM");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b1GXv":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"3yWqD","react":"ewHTr","@parcel/transformer-js/src/esmodule-helpers.js":"hf8dk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9S5MG"}],"b1GXv":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$eefb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27882,9 +27719,172 @@ $RefreshReg$(_c, "CardD");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aLYkf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"3yWqD","react":"ewHTr","@parcel/transformer-js/src/esmodule-helpers.js":"hf8dk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9S5MG"}],"aLYkf":[function(require,module,exports) {
 module.exports = JSON.parse('[{"title":"Work","timeframes":{"daily":{"current":5,"previous":7},"weekly":{"current":32,"previous":36},"monthly":{"current":103,"previous":128}}},{"title":"Play","timeframes":{"daily":{"current":1,"previous":2},"weekly":{"current":10,"previous":8},"monthly":{"current":23,"previous":29}}},{"title":"Study","timeframes":{"daily":{"current":0,"previous":1},"weekly":{"current":4,"previous":7},"monthly":{"current":13,"previous":19}}},{"title":"Exercise","timeframes":{"daily":{"current":1,"previous":1},"weekly":{"current":4,"previous":5},"monthly":{"current":11,"previous":18}}},{"title":"Social","timeframes":{"daily":{"current":1,"previous":3},"weekly":{"current":5,"previous":10},"monthly":{"current":21,"previous":23}}},{"title":"Self Care","timeframes":{"daily":{"current":0,"previous":1},"weekly":{"current":2,"previous":2},"monthly":{"current":7,"previous":11}}}]');
 
-},{}]},["1xC6H","7Zeie","2kQhy"], "2kQhy", "parcelRequiredf1c")
+},{}],"lhQzv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9196 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9196.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Header = (props)=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "relative block w-[80%] max-w-[320px] max-h-[200px] mb-4 sm:h-full sm:w-[250px] sm:align-end",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "relative top-3 flex flex-row items-center w-full h-full rounded-2xl p-6 bg-indigo-600 sm:flex sm:flex-col sm:items-start sm:h-full sm:m-0 sm:pb-9",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: require("../images/image-jeremy.png"),
+                            className: "w-14 h-14 rounded-[50%] m-0 border-4 border-gray-300s"
+                        }, void 0, false, {
+                            fileName: "src/Header.js",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex flex-col items-start w-full px-4",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                    className: "text-gray-300",
+                                    children: "Report for"
+                                }, void 0, false, {
+                                    fileName: "src/Header.js",
+                                    lineNumber: 19,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    className: "text-2xl text-gray-200 sm:flex flex-col",
+                                    children: [
+                                        "Jeremy ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            children: "Robson"
+                                        }, void 0, false, {
+                                            fileName: "src/Header.js",
+                                            lineNumber: 21,
+                                            columnNumber: 22
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Header.js",
+                                    lineNumber: 20,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Header.js",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Header.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: " flex flex-row items-center w-full rounded-b-2xl p-6 pt-8 bg-mine text-paleblue justify-between sm:flex sm:flex-col sm:justify-around sm:gap-2 sm:items-start",
+                    children: [
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            id: "buttonD",
+                            onClick: ()=>props.setTimeFrame("daily"),
+                            className: props.timeFrame === "daily" ? "text-white " : "hover:text-white",
+                            children: "Daily"
+                        }, void 0, false, {
+                            fileName: "src/Header.js",
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            id: "buttonW",
+                            onClick: ()=>props.setTimeFrame("weekly"),
+                            className: props.timeFrame === "weekly" ? "text-white " : "hover:text-white",
+                            children: "Weekly"
+                        }, void 0, false, {
+                            fileName: "src/Header.js",
+                            lineNumber: 40,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            id: "buttonM",
+                            onClick: ()=>props.setTimeFrame("monthly"),
+                            className: props.timeFrame === "monthly" ? "text-white " : "hover:text-white",
+                            children: "Monthly"
+                        }, void 0, false, {
+                            fileName: "src/Header.js",
+                            lineNumber: 49,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Header.js",
+                    lineNumber: 25,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Header.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false);
+};
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$9196.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"3yWqD","react":"ewHTr","@parcel/transformer-js/src/esmodule-helpers.js":"hf8dk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9S5MG","../images/image-jeremy.png":"hlAdI"}],"hlAdI":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("aXMci") + "image-jeremy.48fedf11.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"9eMoS"}],"9eMoS":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}]},["ledPo","gTGC9","2kQhy"], "2kQhy", "parcelRequiredf1c")
 
 //# sourceMappingURL=index.7271efb6.js.map

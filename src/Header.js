@@ -12,7 +12,7 @@ const Header = (props) => {
         rounded-2xl p-6 bg-indigo-600 sm:flex sm:flex-col sm:items-start sm:h-full sm:m-0 sm:pb-9"
         >
           <img
-            src={require("./image-jeremy.png")}
+            src={require("../images/image-jeremy.png")}
             className="w-14 h-14 rounded-[50%] m-0 border-4 border-gray-300s"
           ></img>
           <div className="flex flex-col items-start w-full px-4">
