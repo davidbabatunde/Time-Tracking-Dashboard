@@ -24,8 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/davidbabatunde/Time-Tracking-Dashboard)
-- Live Site URL: (https://62fba6fe52fd7a02fedd145d--splendid-panda-107335.netlify.app/)
+- [Live Site](https://master--lucent-tulumba-c921dc.netlify.app/)
 
 ## My process
 
